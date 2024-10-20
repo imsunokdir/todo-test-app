@@ -1,0 +1,53 @@
+Todo App
+
+
+SRS - software requirement specification
+DFD - dataflow diagram
+Design your DB
+API
+Client
+
+
+////
+
+
+Project setup
+Express server
+mongodb connection
+
+Setup EJS
+
+Registration Page
+Login Page
+
+Register API
+Login API
+
+
+Session base Auth 
+middleware to protect API's
+
+Dashboard Page
+Logout
+Logout from all devices
+
+
+
+todo's API
+create API
+read API
+edit API
+delete API
+
+
+Dashboard
+Axios Read API
+Axios create API
+Axios edit API
+
+Paginations of API's
+rate limiting
+Deploy
+
+
+email base Auth(JWT)

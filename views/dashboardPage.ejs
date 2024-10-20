@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <h1>Hello</h1>
+    <form method="POST" action="/create-item">
+      <div>
+        <input id="create_field" name="todo" />
+        <button class="add_item">Add new Item</button>
+      </div>
+    </form>
+    <form method="post" action="/logout">
+      <button>Log out</button>
+    </form>
+    <form method="POST" action="/logout-out-from-all">
+      <button>Log out from all devices</button>
+    </form>
+    <div class="items">
+      <h4>Items</h4>
+      <ul id="item_list"></ul>
+    </div>
+    <button class="show_more">Show more</button>
+    <script src="/browser.js"></script>
+  </body>
+</html>
